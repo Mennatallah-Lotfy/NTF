@@ -1,0 +1,184 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box !important;
+    overflow-x:hidden !important;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.head{
+    background-image: url('/images/banner-bg.jpg');
+    background-size: cover;
+}
+.navbar-collapse {
+    text-align-last: end;
+}   
+.nav-link{
+    color: black !important;
+}
+.active1{
+    background-color: blueviolet !important;
+    border: 2px blueviolet solid !important;
+    border-radius: 50px !important;
+    color: white !important;
+}
+.nav-link:hover{
+    cursor: pointer !important;
+    background-color: blueviolet !important;
+    border: 2px blueviolet solid !important;
+    border-radius: 50px !important;
+    color: white !important;
+}
+.head-section-h1{
+    font-size: 45px;
+}
+.explore-btn{
+background-color: transparent;
+border-radius: 50px;
+border: 1px blueviolet solid;
+}
+.youtube-btn{
+    background-color: blueviolet;
+    border-radius: 50px;
+    border: 1px blueviolet solid; 
+}
+.btn-link{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px white solid;
+    font-weight: 600;
+}
+.explore-btn:hover{
+    background-color: blueviolet;
+}
+.youtube-btn:hover{
+    background-color: white;
+}
+.youtube-btn .btn-link:hover{
+    background-color:white;
+    color: blueviolet;
+}
+.btn-link:hover{
+     color: white;
+}
+.carousel-btn{
+    column-gap: 30px !important;
+}
+.carousel-item{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+.browse-section{
+    background-image: url('/images/dark-bg.jpg');
+    background-size: cover;
+}
+.span-color{
+    color: blueviolet;
+}
+.line{
+    border-top: 3px blueviolet solid;  
+}
+.card{
+    border-radius: 30px !important;
+    border: .5px solid grey !important;
+}
+.section1-cards{
+    row-gap: 3rem;
+ column-gap: 20px;
+}
+.small-card-img{
+    width: 100% !important;
+}
+.small-card-round{
+border-radius: 50% !important;
+width: 40% !important;
+}
+.small-card{
+transition: .3s;
+    background-color: rgb(41, 40, 40) !important;
+}
+.small-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.owl-stage{
+    display: flex;
+}
+.owl-dots{
+    display: none;
+}
+.owl-carousel{
+position: relative;
+}
+.owl-nav{
+    position:absolute;
+    top: 35%;
+    width: 100%;
+}
+.owl-next{
+    position:absolute;
+right: 0;
+}
+
+.owl-prev i, .owl-next i {color:blue;background-color:white;padding:20px;border-radius: 50%;}
+.section2{
+    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/main-bg.jpg');
+    color: white;
+    /* height: 500px; */
+}
+.create-ntf{
+    background-color:blue;
+    border-radius: 50px;
+    border: 1px blue solid; 
+}
+
+.create-ntf-link{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px white solid;
+    font-weight: 600px;
+}
+
+.create-ntf:hover{
+    background-color:white;
+    border-radius: 50px;
+    border: 1px white solid; 
+}
+.create-ntf-link:hover{
+    text-decoration: none;
+    color: blue;
+    border-bottom: 3px blue solid;
+}
+.lst-link{
+    text-decoration: none;
+    color:lightskyblue
+}
+.fot-span{
+    color: blueviolet;
+    border-color: blueviolet !important;
+}
+.rounded-4{
+    border-radius: 20px !important;
+}
+.lst-card-link{
+    color: blueviolet;
+}
+footer{
+    background-color: blueviolet;
+ text-align: center;
+}
+/* .card-btn-0{
+    position:relative;
+    z-index: 2;
+    column-gap: 4rem;
+    row-gap: 450px;
+    top: -65px;
+} */
+.my-nav{
+    display:none;
+}
